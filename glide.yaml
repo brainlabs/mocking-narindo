@@ -1,4 +1,4 @@
-package: brainlabs
+package: moking_server
 ignore:
 - forecasting_service
 import:
