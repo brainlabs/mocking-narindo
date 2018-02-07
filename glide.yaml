@@ -1,4 +1,4 @@
-package: mocking_server
+package: github.com/brainlabs/mocking_server
 ignore:
 - forecasting_service
 import:

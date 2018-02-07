@@ -2,7 +2,7 @@ package route
 
 import (
 	"github.com/gorilla/mux"
-	"mocking_server/controllers"
+	"github.com/brainlabs/mocking_server/controllers"
 )
 
 type Router struct {

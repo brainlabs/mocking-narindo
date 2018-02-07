@@ -2,7 +2,7 @@ package main
 
 import (
 	"log"
-	"mocking_server/route"
+	"github.com/brainlabs/mocking_server/route"
 	"net/http"
 )
 

@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/bwmarrin/snowflake"
-	"mocking_server/helpers"
+	"github.com/brainlabs/mocking_server/helpers"
 )
 
 type NarindoResponse struct {
