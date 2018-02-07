@@ -1,0 +1,5 @@
+app:
+  listen: 8080
+  name: mocking-server
+
+database:
