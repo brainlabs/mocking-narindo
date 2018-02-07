@@ -1,4 +1,4 @@
-package: moking_server
+package: mocking_server
 ignore:
 - forecasting_service
 import:
