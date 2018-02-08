@@ -96,7 +96,6 @@ func (c *NarindoController) TopUp(rw http.ResponseWriter, req *http.Request) {
 
 	currStatus := regexp.MustCompile("[^0-9]+").ReplaceAllString(fmt.Sprint(sts.Status), "")
 
-	fmt.Println(currStatus)
 
 	rsp := NarindoResponse{
 		Status:       sts.Status,
@@ -148,7 +147,6 @@ func (c *NarindoController) CheckStatus(rw http.ResponseWriter, req *http.Reques
 		Number:       gnd.Generate().Int64(),
 	}
 
-	fmt.Println(currStatus)
 
 	switch currStatus {
 	case "1":
